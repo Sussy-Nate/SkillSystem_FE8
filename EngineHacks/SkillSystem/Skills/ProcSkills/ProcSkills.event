@@ -237,6 +237,12 @@ ALIGN 4
 Proc_CmbArtHpCost:
 #include "CmbArtHpCost/CmbArtHpCost.lyn.event"
 
+ALIGN 4
+Proc_Test:
+#incbin "Test/proc_test.dmp"
+POIN SkillTester
+WORD TestID
+
 
 //When animations are on, do the fancy palette swapping thing (pink for poison, etc) CURRENTLY DOESN'T WORK
 //PUSH
