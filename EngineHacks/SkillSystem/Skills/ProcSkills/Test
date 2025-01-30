@@ -26,7 +26,7 @@ tst r0, r1
 bne End
 @if another skill already activated, don't do anything
 
-@check for Impale proc
+@check for Test proc
 ldr r0, SkillTester
 mov lr, r0
 mov r0, r4 @attacker data
